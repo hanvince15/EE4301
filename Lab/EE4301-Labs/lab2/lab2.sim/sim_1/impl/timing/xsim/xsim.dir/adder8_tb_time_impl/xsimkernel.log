@@ -1,0 +1,4 @@
+Running: xsim.dir/adder8_tb_time_impl/xsimk.exe -simmode gui -wdb adder8_tb_time_impl.wdb -simrunnum 0 -socket 57104
+Design successfully loaded
+Design Loading Memory Usage: 6552 KB (Peak: 6552 KB)
+Design Loading CPU Usage: 0 ms

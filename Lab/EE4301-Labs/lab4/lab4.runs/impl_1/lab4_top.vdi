@@ -1,0 +1,315 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jul 16 22:09:28 2023
+# Process ID: 17848
+# Current directory: C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.runs/impl_1
+# Command line: vivado.exe -log lab4_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lab4_top.tcl -notrace
+# Log file: C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.runs/impl_1/lab4_top.vdi
+# Journal file: C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.runs/impl_1\vivado.jou
+# Running On: Vincent-Laptop, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 4, Host memory: 16830 MB
+#-----------------------------------------------------------
+source lab4_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 394.836 ; gain = 73.641
+Command: link_design -top lab4_top -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 797.199 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc]
+WARNING: [Vivado 12-584] No ports matched 'disp[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[4]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[4]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[5]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[5]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[6]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'disp[6]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'anode[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[0]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[1]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[2]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[3]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[4]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[4]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[5]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[5]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[6]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[6]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[7]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seed[7]'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'roll'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'roll'. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.srcs/constrs_1/new/lab4_top.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 914.070 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 40 Warnings, 40 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 918.113 ; gain = 518.453
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 941.109 ; gain = 22.996
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1078c1b18
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1458.734 ; gain = 517.625
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1078c1b18
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1078c1b18
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1d692fb71
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 5 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1d692fb71
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1d692fb71
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1aff2748f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               5  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1791.988 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 9b0b4d52
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1791.988 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 9b0b4d52
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1791.988 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 9b0b4d52
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1791.988 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1791.988 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 9b0b4d52
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 40 Warnings, 40 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 1791.988 ; gain = 873.875
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.runs/impl_1/lab4_top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file lab4_top_drc_opted.rpt -pb lab4_top_drc_opted.pb -rpx lab4_top_drc_opted.rpx
+Command: report_drc -file lab4_top_drc_opted.rpt -pb lab4_top_drc_opted.pb -rpx lab4_top_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/1hanv/OneDrive/Documents/EE4301/Lab/EE4301-Labs/lab4/lab4.runs/impl_1/lab4_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1791.988 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 85fc3f4a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1791.988 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1791.988 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets rst_IBUF] >
+
+	rst_IBUF_inst (IBUF.O) is locked to IOB_X0Y13
+	rst_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 240730d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 1791.988 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 240730d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1791.988 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 240730d8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.299 . Memory (MB): peak = 1791.988 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 40 Warnings, 40 Critical Warnings and 3 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 16 22:10:30 2023...

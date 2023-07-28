@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Jun 22 23:53:39 2020
+# Process ID: 10196
+# Current directory: G:/My Drive/LaptopCloudSync5-23-2020/Documents/EE4301_Labs/lab_2/lab_2.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source G:/My Drive/LaptopCloudSync5-23-2020/Documents/EE4301_Labs/lab_2/lab_2.sim/sim_1/synth/timing/xsim/xsim.dir/adder8_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: G:/My Drive/LaptopCloudSync5-23-2020/Documents/EE4301_Labs/lab_2/lab_2.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: G:/My Drive/LaptopCloudSync5-23-2020/Documents/EE4301_Labs/lab_2/lab_2.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source G:/My -notrace

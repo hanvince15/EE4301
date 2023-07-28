@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Jun 22 23:56:30 2020
+# Process ID: 15688
+# Current directory: C:/Users/fort3/cscidir/EE4301/lab_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12948 C:\Users\fort3\cscidir\EE4301\lab_2\lab_2.xpr
+# Log file: C:/Users/fort3/cscidir/EE4301/lab_2/vivado.log
+# Journal file: C:/Users/fort3/cscidir/EE4301/lab_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fort3/cscidir/EE4301/lab_2/lab_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+open_wave_config C:/Users/fort3/cscidir/EE4301/lab_1/adder8_tb_behav.wcfg
+source adder8_tb.tcl
+save_wave_config {C:/Users/fort3/cscidir/EE4301/lab_1/adder8_tb_behav.wcfg}
+save_project_as lab_3 C:/Users/fort3/cscidir/EE4301/lab_3 -force
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+close_sim

@@ -1,0 +1,122 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tcpg236-1",
+      "gen_directory": "../../../../lab4.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2"
+    },
+    "design_tree": {
+      "lab4_top_0": "",
+      "clk_wiz_0": "",
+      "seven_segment_0": ""
+    },
+    "components": {
+      "lab4_top_0": {
+        "vlnv": "xilinx.com:module_ref:lab4_top:1.0",
+        "xci_name": "design_1_lab4_top_0_0",
+        "xci_path": "ip\\design_1_lab4_top_0_0\\design_1_lab4_top_0_0.xci",
+        "inst_hier_path": "lab4_top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "lab4_top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "q": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip\\design_1_clk_wiz_0_0\\design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0"
+      },
+      "seven_segment_0": {
+        "vlnv": "xilinx.com:module_ref:seven_segment:1.0",
+        "xci_name": "design_1_seven_segment_0_0",
+        "xci_path": "ip\\design_1_seven_segment_0_0\\design_1_seven_segment_0_0.xci",
+        "inst_hier_path": "seven_segment_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "seven_segment",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clock_100Mhz": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "number": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "Anode_Activate": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "LED_out": {
+            "direction": "O",
+            "left": "6",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "lab4_top_0/clk",
+          "seven_segment_0/clock_100Mhz"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "lab4_top_0/rst",
+          "clk_wiz_0/reset",
+          "seven_segment_0/reset"
+        ]
+      },
+      "lab4_top_0_q": {
+        "ports": [
+          "lab4_top_0/q",
+          "seven_segment_0/number"
+        ]
+      }
+    }
+  }
+}

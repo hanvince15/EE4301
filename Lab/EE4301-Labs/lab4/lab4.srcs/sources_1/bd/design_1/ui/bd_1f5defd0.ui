@@ -1,0 +1,18 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-264,-118",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace inst lab4_top_0 -pg 1 -lvl 2 -x 100 -y 30 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -150 -y 10 -defaultsOSRD
+preplace inst seven_segment_0 -pg 1 -lvl 3 -x 370 -y -20 -defaultsOSRD
+preplace netloc Net 1 1 2 -50 -40 N
+preplace netloc lab4_top_0_q 1 2 1 200 -20n
+preplace netloc Net1 1 0 3 -240 -60 -60 -50 190
+levelinfo -pg 1 -260 -150 100 370 540
+pagesize -pg 1 -db -bbox -sgen -260 -100 540 250
+"
+}
+
