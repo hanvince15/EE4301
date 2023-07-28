@@ -1,0 +1,57 @@
+To draw the RTL (Register-Transfer Level) hardware realization of the given Verilog code, we need to represent the behavior of the code using hardware components. We'll use blocks like multiplexers, adders, and comparators to illustrate the functionality of the code. In this RTL representation, each block will represent a specific operation as described in the Verilog code.
+
+Here's the RTL hardware realization for the given Verilog code:
+
+```
+    +------+     +-------+     +--------+      +-------+     +--------+
+    |      |     |       |     |        |      |       |     |        |
+a --|  ==0 |-----|  MUX  |-----|   AND  |------|   ADD |-----|  x_out |
+    |      |     |       |     | a < b  |      |       |     |        |
+    +------+     +-------+     +--------+      +-------+     +--------+
+        |             |           |               |             |
+        |             |           |               |             |
+        |             |           |               |             |
+    +------+     +-------+     +--------+      +-------+     +--------+
+    |      |     |       |     |        |      |       |     |        |
+b --|  <b  |-----|  MUX  |-----|  NOT   |------|   ADD |-----|  y_out |
+    |      |     |       |     |        |      |       |     |        |
+    +------+     +-------+     +--------+      +-------+     +--------+
+                             |
+                             |
+                         +--------+
+                         |        |
+                      op |        |
+                    +---|  DECODE|-----> x
+                    |  |        |
+                    |  +--------+
+                    |
+                    |
+                    |
+                    |
+                 +-----+
+                 |     |
+                 |     |
+                 |     |
+                 |  y  |
+                 |     |
+                 |     |
+                 +-----+
+```
+
+Explanation of blocks:
+
+1. The first block is a comparator that checks if the value of `a` is equal to 0. If true, it activates the signal `y`, which feeds into a multiplexer (MUX).
+
+2. The second block is another comparator that checks if the value of `a` is less than `b`. If true, it activates the signal `z`, which also feeds into the same MUX.
+
+3. The MUX block selects one of the inputs (`b`, `a + b`, or `a`) based on the value of `op` (the operation code).
+
+4. The `op` signal goes through a decoder, which converts the two-bit `op` value into four different selection lines for the MUX.
+
+5. The selected output from the MUX goes into the `x` output register.
+
+6. The selected output from the second MUX also goes into the `y` output register.
+
+7. The selected output from the first MUX (which is `a + b`) goes through an addition block and is then stored in the `x` output register.
+
+Please note that this is a conceptual representation of the RTL hardware realization and not an actual circuit diagram. It conveys the high-level functionality of the Verilog code and how it can be implemented using various hardware blocks. In actual hardware design, the components may be more complex, and optimizations may be applied for efficiency and performance.
