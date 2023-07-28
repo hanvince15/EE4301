@@ -1,0 +1,45 @@
+
+
+6.4
+
+a. If you use the X function gen and R, S, Q1 and Q2 as inputs you can show the next 
+state of Q1. Then if you use the Y function gen with the inputs of T, Q1 and Q2, 
+you can show the next state of Q2. We can show the output P if we use the Z function
+gen with the inputs T and then also the X function gen.
+
+b.
+
+
+
+6.10
+
+F = X6F1 + X'6F2 + X7
+
+
+
+
+
+For inputs X1, X2, X3, and X4 on X:
+
+    F1 = X'1X2X'3 + X2X'3X'4 + X2X3X'4
+
+
+For inputs X2, X3, X4, and X5 on Y:
+
+    F2 = X'2X'3X4 + X2X'3X'4 + X'3X4X5
+
+For inputs F1, F2, X6, and X7 on X in the second block:
+
+    F = X6F1 + X'6F2 + X7
+
+
+
+7.16
+
+
+
+
+
+
+
+
