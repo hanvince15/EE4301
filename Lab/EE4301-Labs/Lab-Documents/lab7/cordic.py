@@ -22,8 +22,8 @@ def cordic_iteration(angle,n):
         x = newx
         y = newy
         z = z - (di * tan_table[2.0**(-i)])
-    print "cos(angle) = "  + str(x) 
-    print "sin(angle) = "  + str(y)  
+    print ("cos(angle) = "  + str(x)) 
+    print ("sin(angle) = "  + str(y))
     f = math.degrees(x)
     g = math.degrees(y)
 
@@ -44,7 +44,8 @@ def find_An(n):
 
 def main():
     t = cordic_iteration(20,40)
-    print "\nangle rotated = ", find_angle(t)
+    print ("\nangle rotated = ")
+    print (find_angle(t))
 
 if __name__ == '__main__':
     main()
